@@ -352,7 +352,7 @@ function update_circles_tooltip(x_property,y_property, group_circles) {
     
        // Updating Circles with new x values
        group_circles = update_circles(group_circles, x_linear_scale, x_property, y_linear_scale, y_property);
-      //  update circle text
+      // Updating Circles with state text
        state_circles = update_state_circle(state_circles, x_linear_scale, x_property, y_linear_scale, y_property); 
 
        // Updating tooltips with new values
